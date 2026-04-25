@@ -12,3 +12,8 @@ define('BASE_URL', '/practicantes');
 define('URL_PUBLIC', '/practicantes/client/assets');
 //Definir la ruta del sistema de archivos, para incluir archivos PHP sin importar dónde esté el index.php
 define('ROOT_PATH', __DIR__ . DIRECTORY_SEPARATOR);
+
+
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'practicantes');
+define('DB_USER', 'root');
